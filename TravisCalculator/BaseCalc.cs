@@ -13,7 +13,10 @@ namespace TravisCalculator
 
         public bool IsNegativeNumber(int number)
         {
-            return false;
+            if (number < 0)
+                return true;
+            else
+                return false;
         }
     }
 }
