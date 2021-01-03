@@ -7,4 +7,4 @@ install:
   - dotnet restore
 script:
 - dotnet build
-- dotnet test TravisCalculator.Tests\TravisCalculator.Tests.csproj
+- dotnet test TravisCalculator.Tests/TravisCalculator.Tests.csproj
